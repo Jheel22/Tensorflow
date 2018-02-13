@@ -25,11 +25,11 @@ import sys
 from six.moves import urllib
 import tensorflow as tf
 
-DATA_URL = 'https://archive.ics.uci.edu/ml/machine-learning-databases/adult'
-TRAINING_FILE = 'adult.data'
-TRAINING_URL = '%s/%s' % (DATA_URL, TRAINING_FILE)
-EVAL_FILE = 'adult.test'
-EVAL_URL = '%s/%s' % (DATA_URL, EVAL_FILE)
+#DATA_URL = 'https://archive.ics.uci.edu/ml/machine-learning-databases/adult'
+#TRAINING_FILE = 'adult.data'
+TRAINING_URL = 'https://drive.google.com/open?id=1ub0FC3qeaRMoxcSnlb1UT26KSgQ7w0XH' #%s/%s' % (DATA_URL, TRAINING_FILE)
+#EVAL_FILE = 'adult.test'
+EVAL_URL = 'https://drive.google.com/open?id=1L7siTg1P51z79SwZYdEPfNfzl-V6aV_P' #'%s/%s' % (DATA_URL, EVAL_FILE)
 
 parser = argparse.ArgumentParser()
 
